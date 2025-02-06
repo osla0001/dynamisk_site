@@ -298,6 +298,7 @@ header {
   border-color: black;
   border-style: solid;
   transition: 0.3s;
+  margin-bottom: 25px;
 }
 
 .add_to_basket:hover {
@@ -348,4 +349,30 @@ header {
 
 .no_scale:hover {
   scale: 1;
+}
+
+@media screen and (max-width: 740px) {
+  #product_display {
+    display: block;
+  }
+
+  .product_image img {
+    max-width: 350px;
+    place-self: center;
+  }
+
+  .product_path {
+    margin-left: 20px;
+    margin-bottom: 15px;
+  }
+
+  .product_info {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 903px) {
+  #accessories {
+    place-content: center;
+  }
 }
