@@ -3,7 +3,7 @@ const category_list = new URLSearchParams(window.location.search).get("category"
 const brand_list = new URLSearchParams(window.location.search).get("brandname");
 const season_list = new URLSearchParams(window.location.search).get("season");
 
-fetch(`https://kea-alt-del.dk/t7/api/products?limit=200&${category_list ? `category=${category_list}` : brand_list ? `brand=${brand_list}` : ""}${season_list ? `&season=${season_list}` : ""}`)
+fetch(`https://kea-alt-del.dk/t7/api/products?limit=200&${category_list ? `category=${category_list}` : brand_list ? `brandname=${brand_list}` : season_list ? `season=${season_list}` : ""}`)
   .then((response) => response.json())
   .then((data) => showList(data));
 
@@ -37,6 +37,13 @@ function showList(data) {
     .join("");
   console.log(markup);
   listContainer.innerHTML = markup;
+
+  const words = ["spray", "elite", "exuberant", "destruction", "present"];
+
+  const result = words.filter((word) => word.length > 6);
+
+  console.log(result);
+  // Expected output: Array ["exuberant", "destruction", "present"]
 }
 
 // let listContainer = document.querySelector("#accessories");
