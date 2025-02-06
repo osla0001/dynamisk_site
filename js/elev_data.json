@@ -1,0 +1,54 @@
+{
+  "elever": [
+    {
+      "id": 1,
+      "navne": {
+        "Fornavn": "Asta",
+        "Efternavn": "Havshøj"
+      },
+
+      "alder": "25",
+      "studerende": "true",
+      "interesser": ["Design", "Marketing", "Mad"],
+      "adresse": {
+        "vej": "Jenagade 11",
+        "by": "København S",
+        "Postnummer": 2300
+      },
+      "fødselsdato": "2000-01-31",
+      "foretrukne arbejdssted": "Fysisk sammen i gruppen",
+
+      "kontakt": {
+        "telefon": "+4540494683",
+        "mail": "astah2000@gmail.com"
+      }
+    },
+    {
+      "id": 2,
+      "navne": {
+        "fornavn": "Oscar",
+        "efternavn": "Laursen"
+      },
+      "alder": 23,
+      "studerende": true,
+      "semester": 2,
+      "kontakt": [
+        {
+          "type": "telefon",
+          "nummer": "50868563"
+        },
+        {
+          "type": "email",
+          "adresse": "oscardlaursen@gmail.com"
+        }
+      ],
+      "interesser": ["Design", "Musik", "Film", "Mad"],
+      "adresse": {
+        "vej": "Englandsvej 2",
+        "by": "København S",
+        "postnummer": 2300
+      },
+      "fødselsdato": "2001-10-15"
+    }
+  ]
+}

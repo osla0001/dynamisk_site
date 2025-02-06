@@ -1,0 +1,107 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header a {
+  text-transform: uppercase;
+  font-family: "Helvetica_Extra_Compressed";
+  font-size: 2rem;
+  font-weight: 600;
+  color: #0000cb;
+  letter-spacing: 0.5px;
+}
+
+header a:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+h1 {
+  font-family: "Helvetica_Extra_Compressed";
+  font-size: 4rem;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+.category {
+  color: rgb(154, 154, 154);
+}
+
+.read_more {
+  text-decoration: underline;
+}
+
+.product_info h2 {
+  font-size: 2.5rem;
+}
+
+.product_info h3 {
+  font-family: Arial;
+  margin-top: 15px;
+  font-size: 2rem;
+}
+
+.product_info h4 {
+  font-size: 1.2rem;
+}
+
+.product_info h2 {
+  font-family: Arial;
+  text-transform: uppercase;
+}
+
+.product_info p {
+  font-family: Arial;
+  color: rgb(82, 82, 82);
+}
+
+.product_info h4 {
+  font-family: Arial;
+}
+
+.price_container .price_text,
+.size_container p {
+  color: black;
+  font-weight: bolder;
+}
+
+.undercategory p,
+.brand_list p,
+.season_list p {
+  font-family: Arial;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.product_card p,
+.product_card a {
+  font-family: Helvetica;
+  font-size: 0.9rem;
+}
+
+.sold_out_text {
+  text-transform: uppercase;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.overlay_container {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.title {
+  margin-top: 0.5rem;
+  font-family: Helvetica;
+  font-size: 1rem;
+}
+
+.product_path p {
+  font-family: Helvetica;
+  font-size: 0.8rem;
+}
