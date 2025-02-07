@@ -13,7 +13,7 @@ fetch(`https://kea-alt-del.dk/t7/api/products/${productId}`)
     // ` bruges, i stedet for gåseøjne, til at beskrive hvad der skal indsættes
     productContainer.innerHTML = `
     <div class="product_path">
-      <p><a href="index.html">Home</a> > <a href="index.html">${data.category}</a> > <a href="brands.html">${data.brandname}</a> > ${data.productdisplayname}</p>
+      <p><a href="index.html">Home</a> > <a href="produktliste.html?category=${data.category}"</a>${data.category} > <a href="produktliste.html?brandname=${data.brandname}">${data.brandname}</a> > ${data.productdisplayname}</p>
     </div>
     <section id="product_display">
       <div class="product_image">
